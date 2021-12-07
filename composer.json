@@ -1,0 +1,26 @@
+{
+    "name": "brainchildsoft/antifraud",
+    "description": "This detect if project resell or if it is host copy in multiple domain",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BrainchildSoft",
+            "email": "brainchildsoft@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BrainchildSoft\\AntiFraud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BrainchildSoft\\AntiFraud\\AntiFraudServiceProvider"
+            ]
+        }
+    }
+}
